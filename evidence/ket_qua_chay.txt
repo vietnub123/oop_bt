@@ -1,0 +1,60 @@
+BÀI 03 - NHÓM DỰ ÁN VÀ NHÂN SỰ
+Phạm Xuân Việt - 202419016
+
+[1-2] Tạo nhân sự bằng các constructor khác nhau
+NV01 | Nguyễn Minh An | Lương: 0
+NV02 | Trần Thu Hà | Lương: 10,000,000
+KS01 | Lê Hoàng Nam | Lương: 0
+  Ngôn ngữ: Python | Phụ cấp: 0 | Chi phí: 0
+KS02 | Đỗ Mai Linh | Lương: 15,000,000
+  Ngôn ngữ: C# | Phụ cấp: 2,000,000 | Chi phí: 17,000,000
+
+[3-4] Tăng lương cố định và theo phần trăm
+NV01 | Nguyễn Minh An | Lương: 8,000,000
+NV02 | Trần Thu Hà | Lương: 11,000,000
+
+[5] Tạo nhóm chưa có trưởng nhóm
+Dự án DA01: Quản lý thư viện
+Trưởng nhóm: Chưa có
+Chưa có thành viên.
+Tổng chi phí: 0 đồng/tháng
+
+[6] Thêm nhân viên: True
+[7] Thêm kỹ sư làm trưởng nhóm: True
+[8] Thêm lại NV01: False
+
+[9-10] Hiển thị đa hình và tổng chi phí
+Dự án DA01: Quản lý thư viện
+Trưởng nhóm: Đỗ Mai Linh
+NV01 | Nguyễn Minh An | Lương: 8,000,000
+KS02 | Đỗ Mai Linh | Lương: 15,000,000
+  Ngôn ngữ: C# | Phụ cấp: 2,000,000 | Chi phí: 17,000,000
+Tổng chi phí: 25,000,000 đồng/tháng
+
+[11] Xóa trưởng nhóm KS02: False
+[12] Đổi trưởng nhóm sang NV01: True
+     Xóa trưởng nhóm cũ KS02: True
+
+[13] NV01 đồng thời thuộc hai dự án
+Dự án DA02: Website câu lạc bộ
+Trưởng nhóm: Nguyễn Minh An
+NV01 | Nguyễn Minh An | Lương: 8,000,000
+NV02 | Trần Thu Hà | Lương: 11,000,000
+Tổng chi phí: 19,000,000 đồng/tháng
+NV01 là cùng một đối tượng: True
+[14] Kết thúc khối with của nhóm DA02
+Đóng ProjectTeam: DA02
+
+[15] NV01 vẫn tồn tại sau khi đóng DA02
+NV01 | Nguyễn Minh An | Lương: 8,000,000
+NV01 vẫn thuộc DA01: True
+Đóng ProjectTeam: DA01
+
+Hoàn thành 15 bước kiểm thử.
+Kết thúc main, các nhân sự không còn được tham chiếu sẽ được thu hồi.
+Hủy Employee: NV01
+Hủy Employee: NV02
+Hủy SoftwareEngineer: KS01
+Hủy Employee: KS01
+Hủy SoftwareEngineer: KS02
+Hủy Employee: KS02
