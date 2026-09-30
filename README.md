@@ -2,7 +2,7 @@
 
 - Họ tên: Phạm Xuân Việt
 - MSSV: 202419016
-- Ngôn ngữ: Python 3, theo phương án ngôn ngữ khác được cho phép trong đề.
+- Ngôn ngữ: Python 3
 
 ## Chạy
 
@@ -31,10 +31,4 @@ Bài dùng tham số mặc định và xử lý số đối số tương ứng v
 `with` gọi `close()` khi ra khỏi khối lệnh; việc này bỏ tham chiếu của nhóm,
 không chủ động hủy các Employee. `__del__` chỉ dùng để quan sát lúc thu hồi.
 
-## Trước khi nộp
 
-1. Đưa các file lên repository GitHub của mình.
-2. Trong bản Word, thay dòng `[DÁN LINK REPOSITORY CỦA BÀI TẠI ĐÂY]` bằng link thật.
-3. Nộp bản Word đã điền link, hoặc xuất lại PDF từ bản Word đó.
-
-Bản PDF hiện tại có cùng nội dung với bản Word và cũng cần bổ sung link trước khi nộp.
